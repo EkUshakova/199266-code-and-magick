@@ -8,7 +8,7 @@ var GAP = 10;
 var TEXT_GAP = 15;
 var BAR_GAP = 50;
 var BAR_WIDTH = 40;
-var DIAGRAM_HEIGHT = 150;
+var DIAGRAM_HEIGHT = -150;
 
 var renderCloud = function(ctx, x, y, color) {
     ctx.fillStyle = color;
